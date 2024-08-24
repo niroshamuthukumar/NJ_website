@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <header>
+        <h1>gym Booking</h1>
+    </header>
+    <main>
+        <section id="booking-form">
+            <form id="form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" required>
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" required>
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+        <p>
+        <section id="bookings">
+            <h2>Your Bookings</h2>
+            <ul id="booking-list"></ul>
+        </section>
+    </p>
+
+
+<div class="container">
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+</div>
+
+
+
+<div class="ad-container">
+  <!-- The advertisement title -->
+  <h2 class="ad-title">Get 20% off your next purchase!</h2>
+  <!-- The advertisement image -->
+  <img src="ad-image.jpg" alt="Advertisement image" class="ad-image">
+  <!-- The advertisement text -->
+  <p class="ad-text">Don't miss out on this amazing opportunity to save big! Use the code AD20 at checkout to receive your discount.</p>
+  <!-- The call-to-action button -->
+  <button class="ad-btn">Shop Now!</button>
+</div>
+
+
+    </main>
+    <script src="book.js"></script>
+</body>
+</html>

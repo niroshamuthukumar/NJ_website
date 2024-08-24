@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap");
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #333;
+    align-self: center;
+    left: 50%;
+
+}
+
+header {
+    background-color: #333;
+    color:  #fafefe;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+#booking-form{
+position: relative;
+    width: 550px;
+    height: 500px;
+    background: transparent;
+    border: 2px solid rgb(249, 247, 247);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px #29a396;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 1s ease-out;
+}
+
+#bookings {
+    position: relative;
+    width: 550px;
+    height: 300px;
+    background: transparent;
+    border: 2px solid rgb(249, 247, 247);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px #29a396;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 1s ease-out;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input, button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #29a396;
+    color:   #f4faf9;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #29a396;
+}
+
+
+
+
+/* Styles for the advertisement container */
+.ad-container {
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  /* Styles for the advertisement title */
+  .ad-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the advertisement image */
+  .ad-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the advertisement text */
+  .ad-text {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Styles for the call-to-action button */
+  .ad-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ad-btn:hover {
+    background-color: #3e8e41;
+  }
